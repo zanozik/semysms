@@ -1,0 +1,29 @@
+{
+    "name": "zanozik/semysms",
+    "description": "SemySMS Notifications Channel for Laravel",
+    "homepage": "https://github.com/zanozik/semysms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZanoZik",
+            "email": "zanozik@gmail.com",
+            "homepage": "https://github.com/zanozik",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "^6.2",
+        "illuminate/notifications": "^5.3",
+        "illuminate/queue": "^5.3",
+        "illuminate/support": "^5.1|^5.2|^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotificationChannels\\SemySMS\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
