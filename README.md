@@ -67,8 +67,7 @@ You should add a `routeNotificationForSemySMS()` method in your notifiable model
  *
  * @return int
  */
-public function routeNotificationForSemySMS()
-{
+public function routeNotificationForSemySMS(){
     return $this->phone_number;
 }
 ...
