@@ -1,6 +1,9 @@
 SemySMS Notifications Channel
 ================
 
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE)
+
 ## Installation
 
 You can install the package via composer:
@@ -80,3 +83,8 @@ public function routeNotificationForSemySMS(){
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
+
+[ico-version]: https://img.shields.io/packagist/v/zanozik/semysms.svg
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
+
+[link-packagist]: https://packagist.org/packages/zanozik/semysms
