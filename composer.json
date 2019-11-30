@@ -14,13 +14,20 @@
     "require": {
         "php": ">=5.6.4",
         "guzzlehttp/guzzle": "^6.2",
-        "illuminate/notifications": "^5.3",
-        "illuminate/queue": "^5.3",
-        "illuminate/support": "^5.1|^5.2|^5.3"
+        "illuminate/notifications": "^5.3|^6.0",
+        "illuminate/queue": "^5.3|^6.0",
+        "illuminate/support": "^5.1|^5.2|^5.3|^6.0"
     },
     "autoload": {
         "psr-4": {
             "NotificationChannels\\SemySMS\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NotificationChannels\\SemySMS\\SemySMSServiceProvider"
+            ]
         }
     },
     "config": {
